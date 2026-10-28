@@ -1,0 +1,2919 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "module": 1,
+      "type": "单选",
+      "stem": "行政人员要把80份简历汇总成可验收的Excel。最体现WorkBuddy价值的是哪项？",
+      "options": [
+        "只说明如何编写提取程序",
+        "在授权范围内读取资料、执行步骤并交付文件",
+        "只提供招聘趋势预测",
+        "把所有简历无差别发送给外部服务"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "关键是从理解目标、调用工具到交付文件的执行闭环；执行仍有权限与工具边界。",
+      "sources": [
+        "S02"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        1,
+        2
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 2,
+      "module": 1,
+      "type": "单选",
+      "stem": "题目问“工作模式”，哪组对应手册和官方课程中的模式名称？",
+      "options": [
+        "快速、均衡、极致",
+        "日常办公、代码开发、设计创意",
+        "个人、共享、订阅",
+        "Ask、Plan、Craft"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Ask/Plan/Craft是课程命名；当前文档把默认执行模式称为Agent。工作场景、模型档位、知识库分类不能混用。",
+      "sources": [
+        "S02",
+        "S03"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        42,
+        43
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 3,
+      "module": 2,
+      "type": "单选",
+      "stem": "给AI下达销售分析任务时，哪项最有利于一次得到可验收结果？",
+      "options": [
+        "用销售目录本季度明细，按区域汇总，标出缺失值，输出Excel和两页Word到指定目录",
+        "先生成结论，再寻找支持该结论的数据",
+        "分析销售情况，输出不限",
+        "帮我好好分析，越专业越好"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "目标、输入、口径、输出、位置和边界都清楚，能减少反复猜测。缺失信息应标注，不能补造。",
+      "sources": [
+        "S19"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        4,
+        44
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 4,
+      "module": 2,
+      "type": "单选",
+      "stem": "任务显示“已完成”，但你还没看到实际报告。下一步最合适的是？",
+      "options": [
+        "到产物或文件路径打开核验，检查内容和格式",
+        "只看任务标题",
+        "删除任务后重新生成",
+        "直接转发给客户"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "执行完成不等于质量验收完成。应打开实际产物，核对数字、结构、格式和路径。",
+      "sources": [
+        "S05"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 5,
+      "module": 3,
+      "type": "单选",
+      "stem": "人在外面，要让本机WorkBuddy处理公司电脑中的文件，哪组条件最关键？",
+      "options": [
+        "手机和电脑必须同一Wi-Fi",
+        "电脑开机联网且WorkBuddy运行，绑定与权限有效",
+        "手机必须使用电脑同品牌系统",
+        "只要微信在线，电脑可关机"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "本机执行依赖电脑与客户端在线；两端各自能联网即可，不要求同一局域网。",
+      "sources": [
+        "S06"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 6,
+      "module": 3,
+      "type": "单选",
+      "stem": "手机切到云端模式后，为什么不能直接读取关机电脑D盘中的合同？",
+      "options": [
+        "云端模式只支持中文",
+        "模型上下文太小是唯一原因",
+        "合同必须先改成图片",
+        "云端沙箱与本机是不同环境，合同需要先提供给云端或经授权服务获取"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "消息入口相似，不代表文件环境相同。云端无法凭文件路径读取未在线电脑的磁盘。",
+      "sources": [
+        "S06",
+        "S14"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        58
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 7,
+      "module": 3,
+      "type": "单选",
+      "stem": "按当前官方企微WebSocket长连接指南，手动绑定使用哪组凭据？",
+      "options": [
+        "回调URL、Token、Encoding-AESKey",
+        "个人微信密码与支付密码",
+        "腾讯文档分享链接与标题",
+        "Bot ID与Secret"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "这是长连接绑定方式；官方明确不需要填写回调URL、Token或Encoding-AESKey。不可把不同接入模式混在一起。",
+      "sources": [
+        "S06"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 8,
+      "module": 3,
+      "type": "单选",
+      "stem": "机器人能回复“你好”，但读某文件时报“找不到”。应优先检查什么？",
+      "options": [
+        "目标执行环境、完整路径、文件名与访问权限",
+        "更换最贵模型",
+        "重装所有技能",
+        "先删除该工作空间"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "连通测试通过后，应从文件定位和权限入手，不能把所有故障都归于模型或网络。",
+      "sources": [
+        "S06",
+        "S03"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 9,
+      "module": 3,
+      "type": "单选",
+      "stem": "在企业微信群里向已配置的助理机器人派发团队任务，哪种理解最合适？",
+      "options": [
+        "按企微集成支持方式发起群任务，并核对授权和回传对象",
+        "所有助理通道都只允许一个个人账号单聊",
+        "不需要创建或绑定机器人",
+        "群聊消息意味着文件对所有人公开"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "个人微信、企微单聊和企微群聊有不同机制。当前企微指南支持群聊任务，不能套用个人通道的绝对规则。",
+      "sources": [
+        "S06"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 10,
+      "module": 4,
+      "type": "单选",
+      "stem": "某团队每周都要按同一格式整理日报，想长期复用方法，最适合优先沉淀什么？",
+      "options": [
+        "只修改任务标题",
+        "只存一张最终报告截图",
+        "可复用的Skill及模板、输入输出约束",
+        "一个不断加长的随意聊天"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "重复的稳定方法适合固化成技能；资料来源和运行时间仍由其他模块提供。",
+      "sources": [
+        "S07",
+        "S08"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 11,
+      "module": 4,
+      "type": "单选",
+      "stem": "技能包里定义技能用途和执行说明的核心文件是什么？",
+      "options": [
+        "invoice.png",
+        "SKILL.md",
+        "schedule.csv",
+        "README.xlsx"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "SKILL.md是技能定义核心；参考资料、脚本与资产可作为配套资源，不要求每个技能都有同样的可选目录。",
+      "sources": [
+        "S08"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 12,
+      "module": 4,
+      "type": "单选",
+      "stem": "关闭某技能后，旧会话仍似乎能调用它。最合理的解释是什么？",
+      "options": [
+        "任何技能都无法被关闭",
+        "关闭会自动删除所有历史产物",
+        "软件一定中毒",
+        "关闭只对新会话完全生效，旧会话已加载能力可能仍保留"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "官方说明关闭不等于卸载，当前会话已加载内容可能继续可用。验证关闭效果应新建会话。",
+      "sources": [
+        "S07"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        65
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 13,
+      "module": 4,
+      "type": "单选",
+      "stem": "你有自己制作的技能压缩包，当前官方技能管理流程应优先使用什么入口？",
+      "options": [
+        "添加技能中的上传技能",
+        "上传到朋友圈自动导入",
+        "把压缩包改名为Word文档",
+        "必须先把它上架市场才可用"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "自行上传的技能包用上传技能导入；不要与在市场搜索安装混淆。",
+      "sources": [
+        "S07"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        14
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 14,
+      "module": 4,
+      "type": "单选",
+      "stem": "办公技能成功生成一份PPT，但你未提供任何业务数字。哪项判断最合适？",
+      "options": [
+        "核对数字来源，补齐真实数据后再交付",
+        "把随机示例直接作为经营成果",
+        "格式正确就说明数字真实",
+        "数据真实性由技能安装量决定"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "能生成文件不代表事实有来源。手册明确指出演示中无输入会产生测试或编造数据，正式工作须提供真实材料。",
+      "sources": [
+        "S19"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 15,
+      "module": 5,
+      "type": "单选",
+      "stem": "要从腾讯会议取得记录、生成周报并发到协作平台，首先应确认什么？",
+      "options": [
+        "只有模型参数量足够大即可",
+        "必须手写一个新大模型",
+        "PPT颜色是否统一",
+        "相关连接器已正确连接、授权并在任务中启用"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "外部业务系统能力通过连接器接入；模型能力不能替代服务授权。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 16,
+      "module": 5,
+      "type": "单选",
+      "stem": "任务执行到一半明确提示连接器“授权已失效”。正确处理是？",
+      "options": [
+        "直接重装WorkBuddy",
+        "把提示卡关闭就能恢复访问",
+        "重新连接并完成授权，让任务继续重试相应步骤",
+        "只增加提示词字数"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "授权失效要重新连接。当前官方文档支持成功后自动重试刚失败的步骤；关闭卡片不恢复授权。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 17,
+      "module": 5,
+      "type": "单选",
+      "stem": "你只想让已授权的连接器暂时不参加当前任务，应如何做？",
+      "options": [
+        "关闭本次任务中的连接器启用状态",
+        "删除所有云文档",
+        "把连接器改为专家",
+        "注销整个腾讯云账号"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "任务中的关闭控制是否参与；解绑控制授权连接关系。二者目的和影响不同。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 18,
+      "module": 5,
+      "type": "单选",
+      "stem": "“连接器等于MCP协议”这一说法是否准确？",
+      "options": [
+        "不准确，因为所有连接器都只能读本地文件",
+        "不准确，连接器是产品接入能力，MCP是相关技术协议",
+        "准确，MCP就是某个企业账号",
+        "准确，两者含义完全相同"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "应区分产品功能与技术协议；当前连接器还存在其他实现组合，不宜把两者完全画等号。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        17
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 19,
+      "module": 6,
+      "type": "单选",
+      "stem": "第一次做客户提案，不知成品可以是什么样，希望复用已有案例，优先使用？",
+      "options": [
+        "灵感",
+        "账单管理",
+        "自动化失败日志",
+        "模型密钥配置"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "灵感展示成品案例，适合浏览和做同款；技能和专家提供能力，自动化解决触发时间。",
+      "sources": [
+        "S13"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        21
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 20,
+      "module": 6,
+      "type": "单选",
+      "stem": "点击灵感“做同款”通常意味着什么？",
+      "options": [
+        "只给电脑换壁纸",
+        "把所有原作者私有资料复制给你",
+        "自动预填案例Prompt并加载相关技能和专家配置，供生成自己的版本",
+        "只收藏原作者名字"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "复用的是案例关联的提示词和配置，仍需换成自己的输入并核对输出，不能推断有权复制所有源资料。",
+      "sources": [
+        "S13"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        21,
+        53
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 21,
+      "module": 6,
+      "type": "单选",
+      "stem": "关于灵感与积分，哪项正确？",
+      "options": [
+        "所有灵感作品都由官方保证事实准确",
+        "浏览本身不耗积分，做同款按实际触发的模块计算",
+        "浏览每页固定收费，做同款始终免费",
+        "收藏等于购买全部技能"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "区分浏览、收藏和实际生成行为；平台展示案例不等于对所有事实背书。",
+      "sources": [
+        "S13"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        21
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 22,
+      "module": 7,
+      "type": "单选",
+      "stem": "基于团队历史方案生成新客户版本，最完整的资料复用链路是？",
+      "options": [
+        "授权并检索资料，添加到任务，加工后把新成果回存",
+        "先生成结果，再假设历史内容",
+        "随便引用记忆，省略输入",
+        "只把文件名发给AI，不提供访问方式"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "资料库核心是取资料、加工、回存形成循环，文件名本身不等于模型已读到内容。",
+      "sources": [
+        "S11"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 23,
+      "module": 7,
+      "type": "单选",
+      "stem": "WorkBuddy接入某用户的知识库后，权限应如何理解？",
+      "options": [
+        "自动成为所有知识库的超级管理员",
+        "沿用该用户已获授权的资料访问范围",
+        "只要知道标题就能读取任何私有文档",
+        "可以读取同事没有共享的所有文件"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "连接不应扩大原始访问权限；入口可见、账号登录和具体文档可读是不同层次。",
+      "sources": [
+        "S10",
+        "S11"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        56
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 24,
+      "module": 7,
+      "type": "单选",
+      "stem": "个人版ima知识库在WorkBuddy中接入，当前官方指引采用什么授权方式？",
+      "options": [
+        "输入银行卡支付密码",
+        "只修改文档扩展名",
+        "复制其他人的模型密钥",
+        "个人微信扫码并确认授权"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "个人版连接器使用个人微信扫码授权；企业版统一身份与个人版授权机制不能混为一谈。",
+      "sources": [
+        "S11"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 25,
+      "module": 7,
+      "type": "单选",
+      "stem": "当前资料库里MD、CSV、HTML的职责，哪组匹配合理？",
+      "options": [
+        "MD是模型，CSV是连接器，HTML是权限",
+        "MD负责内容，CSV负责数据，HTML负责呈现",
+        "三种格式必须互相覆盖才可使用",
+        "HTML只能存数字，CSV只能写长文"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "内容、数据和呈现分工，便于持续维护。此项属于当前版本扩展，考试核心仍是资料取用存与权限。",
+      "sources": [
+        "S10"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        22
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 26,
+      "module": 8,
+      "type": "单选",
+      "stem": "每周五17:00自动生成周报，以下哪一项配置最完整？",
+      "options": [
+        "只写“帮我写周报”",
+        "每天手工重新发送相同任务",
+        "写明周期、数据范围、输出路径、模板、异常处理，并先运行测试",
+        "只设置周报标题"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "自动化需要可独立执行的完整说明。时间规则与任务内容都必须清楚。",
+      "sources": [
+        "S14"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 27,
+      "module": 8,
+      "type": "单选",
+      "stem": "本地定时任务到点后停在“待确认”，电脑和网络都正常。优先检查？",
+      "options": [
+        "是否触发默认权限下需要确认的操作",
+        "图片分辨率",
+        "浏览器历史记录数",
+        "文件名字体"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "默认权限会保留敏感操作确认。无人值守前要验证权限需求，提示词写“不要问”不等于系统已放行。",
+      "sources": [
+        "S14",
+        "S17"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 28,
+      "module": 8,
+      "type": "单选",
+      "stem": "当前官方文档下，“所有定时任务都必须保持个人电脑在线”是否准确？",
+      "options": [
+        "准确，定时任务不支持云端",
+        "不准确，必须分清本地与云端执行来源",
+        "不准确，因为本地任务也永远无需电脑",
+        "准确，云端任务也在本机跑"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "本地任务在客户端执行；云端沙箱任务无需本机在线。不能用旧版本本地任务条件覆盖所有类型。",
+      "sources": [
+        "S14"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        58
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 29,
+      "module": 9,
+      "type": "单选",
+      "stem": "需要检查一个具体领域的问题，哪种选专家方式最合理？",
+      "options": [
+        "随便选一个后忽略其专业范围",
+        "按任务领域、能力介绍和示例匹配，并提供背景材料",
+        "专家越多越一定准确",
+        "只选全站最热的专家"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "角色方法与任务匹配比单纯热度更重要；专业角色仍需实际输入与验收。",
+      "sources": [
+        "S15"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 30,
+      "module": 9,
+      "type": "单选",
+      "stem": "复杂项目需要研究、设计、开发等多个角色接力，最适合考虑什么？",
+      "options": [
+        "只收藏一个灵感页面",
+        "只修改模型头像",
+        "关闭所有工具",
+        "专家团，由团长拆解分工并整合交付"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "专家团组织多个专家协作；单专家更适合明确领域问题，技能解决具体执行能力。",
+      "sources": [
+        "S15"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        27,
+        59
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 31,
+      "module": 9,
+      "type": "单选",
+      "stem": "输入发票图片要求识别，选择自定义模型时应特别确认什么？",
+      "options": [
+        "该模型及配置支持图片输入，相关工具可用",
+        "只要模型名字带数字即可",
+        "只看界面颜色",
+        "上下文越大越一定支持图片"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "多模态能力、工具能力和上下文长度是不同维度。识图输入要求不能由模型名或窗口大小推断。",
+      "sources": [
+        "S16"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 32,
+      "module": 9,
+      "type": "单选",
+      "stem": "简单润色和复杂多步骤分析，应如何选择模型档位？",
+      "options": [
+        "简单任务可用快速，复杂任务再考虑更强档位，兼顾成本和效果",
+        "都固定使用最大上下文",
+        "模型档位与任务复杂度无关",
+        "都必须选极致"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "模型选择是速度、质量和消耗的取舍，不是档位越高对每项任务越划算。",
+      "sources": [
+        "S16"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        60
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 33,
+      "module": 9,
+      "type": "单选",
+      "stem": "自定义模型的API Key保存在本地，就能推出“发送给第三方模型的内容绝不离开本机”吗？",
+      "options": [
+        "不能，因为所有模型必然公开发布内容",
+        "能，只要文件名是JSON",
+        "能，密钥存储位置决定一切",
+        "不能；本地保存配置与请求发送到第三方是两件事"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "官方说明WorkBuddy会把输入转发给所配置的第三方模型。应区分配置存储、数据传输与公开发布。",
+      "sources": [
+        "S16"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        31
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 34,
+      "module": 10,
+      "type": "单选",
+      "stem": "合并各部门销售表前，最应先明确什么？",
+      "options": [
+        "把所有空值都当作零且不说明",
+        "只决定图表颜色",
+        "统一字段、日期和金额单位，规定去重键、缺失值和统计口径",
+        "直接拼接后得出结论"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "分析准确性取决于口径一致和清洗规则。图表美化不能纠正分母、币种或重复记录问题。",
+      "sources": [
+        "S19"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 35,
+      "module": 10,
+      "type": "单选",
+      "stem": "整理会议纪要时，某待办没有明确负责人，应该怎么处理？",
+      "options": [
+        "把任务直接删掉",
+        "标注待确认，保留已知事项和依据",
+        "从别的项目复制负责人",
+        "随机填一位参会人"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "区分明确事实与待补信息，不能把推测当作已确认责任。",
+      "sources": [
+        "S18"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 36,
+      "module": 10,
+      "type": "单选",
+      "stem": "给CEO/CFO做项目汇报，希望减少返工，应如何组织PPT制作？",
+      "options": [
+        "直接套用不相关模板，数据缺失用随机数",
+        "只给一个“做得高端”的要求",
+        "先做所有页动画再定内容",
+        "先说明受众、目标、页数和数据，确认大纲再成稿"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "受众决定关注点，数据决定论据，大纲确认减少结构返工。手册立项案例强调ROI和风险。",
+      "sources": [
+        "S19"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 37,
+      "module": 11,
+      "type": "单选",
+      "stem": "OPC在本认证语境中主要指什么？",
+      "options": [
+        "只做代码开发的职业",
+        "工业通信协议OPC UA",
+        "Office Product Certificate",
+        "One Person Company，一人公司形态"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "这里是用WorkBuddy等能力放大个人交付能力的一人公司实践，不是工业自动化协议认证。",
+      "sources": [
+        "S01",
+        "S02"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        32
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 38,
+      "module": 11,
+      "type": "单选",
+      "stem": "客户临时变更需求后，OPC顾问最合理的第一步是？",
+      "options": [
+        "先承诺免费增加所有范围",
+        "直接召唤更多专家，省略需求核对",
+        "梳理新需求、已确认事项、待确认点，再对照历史约定",
+        "立即改所有交付文件"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "先弄清变化与范围，再执行。专家团与工具不能替代需求澄清。",
+      "sources": [
+        "S18"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        33
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 39,
+      "module": 11,
+      "type": "单选",
+      "stem": "在WorkBuddy与ima组合里，以下哪项分工最合理？",
+      "options": [
+        "ima保存和提供历史知识，WorkBuddy分析并生成交付成果",
+        "ima就是定时器，WorkBuddy只存密码",
+        "ima自动代替客户审批",
+        "二者都只能做聊天，不能形成交付"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "资料沉淀与任务执行互补。历史资料进入新任务，再把成果回存，减少重复搜索和解释。",
+      "sources": [
+        "S18"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        33
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 40,
+      "module": 11,
+      "type": "单选",
+      "stem": "专家团完成方案后，用户的关键责任是什么？",
+      "options": [
+        "不再需要理解客户需求",
+        "仅统计召唤次数",
+        "判断方案、核验事实和交付质量，并作关键决策",
+        "无需核验，自动承诺客户所有条款"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "人负责方向、关系与重要判断，AI承担大量具体执行；组织规模的产出不意味着责任自动转移。",
+      "sources": [
+        "S18"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        34,
+        62
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 41,
+      "module": 1,
+      "type": "多选",
+      "stem": "哪些任务更能发挥智能体执行优势？",
+      "options": [
+        "按固定日程运行已经验证的流程",
+        "按规则整理多份文件",
+        "从真实数据生成报告与图表",
+        "仅因模型输出流畅就认定事实正确"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "优势在重复、多步骤、可验收的执行任务；流畅性不能证明真实性。",
+      "sources": [
+        "S02"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        1
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 42,
+      "module": 2,
+      "type": "多选",
+      "stem": "哪些做法有助于管理任务与产物？",
+      "options": [
+        "在已有任务中针对结果补充修改要求",
+        "明确输出路径和文件格式",
+        "任务完成后把所有历史记录都删除作为必经步骤",
+        "打开产物核对内容与格式"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "路径、上下文迭代和产物核验形成闭环；删除记录不是完成任务的必要步骤。",
+      "sources": [
+        "S04",
+        "S05"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 43,
+      "module": 3,
+      "type": "多选",
+      "stem": "对于本机远程助理，哪些判断正确？",
+      "options": [
+        "实际操作使用电脑端环境和已授予的能力",
+        "手机和电脑可使用不同网络",
+        "电脑关机后，本机文件仍会由该客户端继续处理",
+        "单凭手机消息无法绕过电脑端权限"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "手机是任务入口，电脑是本机执行环境；中转消息不等于电脑已经在线或权限已放开。",
+      "sources": [
+        "S06"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        11
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 44,
+      "module": 3,
+      "type": "多选",
+      "stem": "企微助理新接入后，哪些验证步骤合理？",
+      "options": [
+        "为排除所有故障，公开发送Secret给群成员",
+        "用测试目录做低风险文件任务并核对回传",
+        "发送简单消息测试收发链路",
+        "确认机器人创建和绑定完成"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "先验证链路，再验证文件执行与结果回传。凭证应妥善保管，不以群发密钥作为排障方法。",
+      "sources": [
+        "S06"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        11
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 45,
+      "module": 4,
+      "type": "多选",
+      "stem": "关于技能状态，哪些说法正确？",
+      "options": [
+        "关闭后仍可在已安装列表找到",
+        "已安装是文件／配置存在的状态",
+        "关闭与卸载的影响相同",
+        "旧会话已加载能力可能继续存在"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "安装、开启和会话加载是不同状态；关闭保留文件，卸载才删除技能及开关记录。",
+      "sources": [
+        "S07"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        65
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 46,
+      "module": 4,
+      "type": "多选",
+      "stem": "为团队设计“固定模板周报”技能，哪些信息值得写入？",
+      "options": [
+        "输入材料、字段与缺失处理",
+        "适用任务与触发条件",
+        "把真实API密钥硬编码进可分享的技能包",
+        "输出结构、模板与验收标准"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "稳定技能需要用途、输入、流程、输出与检查。复用方法不等于传播真实凭据。",
+      "sources": [
+        "S08",
+        "S07"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        14
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 47,
+      "module": 4,
+      "type": "多选",
+      "stem": "安装第三方技能前，哪些检查有意义？",
+      "options": [
+        "数据是否会发到外部服务",
+        "开发者与来源是否可信",
+        "脚本、依赖和所申请权限",
+        "只看安装量，排名高即可跳过审查"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "来源、代码行为、权限和数据去向共同决定风险；扫描与热度都不是绝对安全保证。",
+      "sources": [
+        "S07"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 48,
+      "module": 5,
+      "type": "多选",
+      "stem": "下列哪些属于连接器的典型用途？",
+      "options": [
+        "调用授权服务创建日程或发送邮件",
+        "读取网盘文件和上传附件",
+        "检索云端业务资料",
+        "向授权的协作渠道发消息"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "数据查询、服务调用、文件管理、消息通知是四类典型用途。具体服务支持哪些动作仍看实际授权。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 49,
+      "module": 5,
+      "type": "多选",
+      "stem": "连接器调用失败时，哪些诊断区分合理？",
+      "options": [
+        "网络超时就必然意味着令牌失效",
+        "服务异常时保留错误信息并按异常处理规则处理",
+        "明确授权过期时重新连接",
+        "无文档读取权限时应核对源服务权限"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "超时、鉴权、资源权限和服务故障属于不同层次，不能只用重新授权解决全部问题。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 50,
+      "module": 6,
+      "type": "多选",
+      "stem": "使用灵感“做同款”时，哪些做法合理？",
+      "options": [
+        "核对所触发技能、专家与权限",
+        "把业务输入替换成自己的真实资料",
+        "认为被展示的社区案例均已经获得事实真实性担保",
+        "查看原案例成品及提示词"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "做同款降低起步成本，但不免除素材核对、权限审查和结果验收。",
+      "sources": [
+        "S13"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 51,
+      "module": 6,
+      "type": "多选",
+      "stem": "以下模块定位哪些匹配正确？",
+      "options": [
+        "灵感：可复用的案例成果",
+        "专家：专业角色与方法",
+        "自动化：只保存所有知识库文档",
+        "技能：某类任务如何执行"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "灵感是成果案例，技能与专家提供能力；自动化是时间触发机制，不是资料存储模块。",
+      "sources": [
+        "S13",
+        "S14"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 52,
+      "module": 7,
+      "type": "多选",
+      "stem": "关于ima知识库接入与使用，哪些说法正确？",
+      "options": [
+        "可把所选知识库文件添加到任务",
+        "新成果可按权限存回知识库",
+        "先完成相应账号授权",
+        "授权个人版会自动把所有企业私有知识库变为公开"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "授权、引用、回存构成知识工作闭环，权限仍受账号和资料来源约束。",
+      "sources": [
+        "S11"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        56
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 53,
+      "module": 7,
+      "type": "多选",
+      "stem": "下列哪些做法能改善资料沉淀和复用？",
+      "options": [
+        "把最终方案和来源放入明确项目目录",
+        "保留资料版本、适用对象与日期",
+        "下次任务引用已有资料后继续加工",
+        "每次完全不看历史约定，以新生成内容覆盖原结论"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "可检索的版本、来源和任务引用减少重复搜索，并保留判断依据。完全忽略历史会破坏上下文连续性。",
+      "sources": [
+        "S10",
+        "S18"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 54,
+      "module": 8,
+      "type": "多选",
+      "stem": "将一条已跑通的流程设成自动化前，哪些要确认？",
+      "options": [
+        "模型、工具授权、权限及失败处理",
+        "触发频率、具体时间及有效期",
+        "输入来源、输出路径与文件命名",
+        "先运行测试，检查产物和日志"
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "时间、内容、执行环境和验收都要齐备。自动化只是换触发方式，不会自动补齐缺失的业务逻辑。",
+      "sources": [
+        "S14"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 55,
+      "module": 8,
+      "type": "多选",
+      "stem": "以下哪些定时任务管理判断符合当前官方文档？",
+      "options": [
+        "删除任务后仍会按原计划持续执行",
+        "立即运行一次通常不改变原有日程",
+        "任务失败后可以查看运行记录中的原因",
+        "暂停主要影响后续执行，不会自动中断已经运行的一次"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "要区分立即运行、暂停、删除和正在运行的实例；它们不是同一个操作。",
+      "sources": [
+        "S14"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 56,
+      "module": 9,
+      "type": "多选",
+      "stem": "哪些场景更适合专家团而不是单个专家或单一技能？",
+      "options": [
+        "新品上市同时需要研究、定位、传播和物料",
+        "多角色协作完成从需求到测试的交付",
+        "只需解释一个缩写",
+        "一个明确字段的日期格式转换"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "专家团价值在多角色组织与整合，不宜为简单单点任务无差别增加协作成本。",
+      "sources": [
+        "S15"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        27,
+        59
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 57,
+      "module": 9,
+      "type": "多选",
+      "stem": "关于模型配置，哪些判断合理？",
+      "options": [
+        "自定义第三方模型应核对地址、模型标识和凭证",
+        "扩大上下文窗口会自动提供源系统授权",
+        "更强推理通常要权衡时间与消耗",
+        "模型是否支持图片输入需单独确认"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "输入能力、推理投入和鉴权分别配置。上下文长度既不是权限也不是真实性保证。",
+      "sources": [
+        "S16"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        60
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 58,
+      "module": 10,
+      "type": "多选",
+      "stem": "销售分析报告交付前，哪些检查必要？",
+      "options": [
+        "图表单位、时间范围和分组是否准确",
+        "总额能否与清洗后的明细核对",
+        "只要文件能打开，就可省略数值检查",
+        "结论是否有数据支持，推断是否标明"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "文件能打开只证明格式可读取，不能证明统计与解释正确。手册数据分析案例应以口径核验为先。",
+      "sources": [
+        "S19"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 59,
+      "module": 10,
+      "type": "多选",
+      "stem": "生成会议纪要和客户方案时，哪些做法合理？",
+      "options": [
+        "区分已确认事项与待确认问题",
+        "缺少来源时用确定语气补全合同金额",
+        "对任务中不需要的个人信息做脱敏",
+        "在分享前核对收件对象、事实和权限"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "真实材料、待确认标记和分享范围控制一起支撑可用交付；不能编造合同金额。",
+      "sources": [
+        "S18",
+        "S17"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        35
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 60,
+      "module": 11,
+      "type": "多选",
+      "stem": "关于OPC工作流，哪些说法正确？",
+      "options": [
+        "人继续负责客户关系和关键判断",
+        "所有OPC必须采用完全相同的固定流程",
+        "先明确业务目标与交付标准",
+        "可组合资料库、连接器、技能、专家团和自动化"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "官方OPC案例是可改造的工作流示范；能力可组合，业务责任仍由人承担，不是统一模板。",
+      "sources": [
+        "S18"
+      ],
+      "origin": "original",
+      "thirdPartyIds": [
+        34,
+        62
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 61,
+      "module": 2,
+      "type": "单选",
+      "stem": "报告已经生成，你希望在同一任务里检查文件和修改内容，应重点查看哪一区域？",
+      "options": [
+        "只有模型下拉框",
+        "侧边栏里的账号头像",
+        "收费套餐页面",
+        "右侧结果区中的产物、文件与变更视图"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "结果区集中呈现交付文件、工作空间文件、网页和本次变更；侧边栏主要帮助定位任务。",
+      "sources": [
+        "S05"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        3
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 62,
+      "module": 2,
+      "type": "单选",
+      "stem": "任务行显示“待确认”，而不是“失败”。最合适的理解是？",
+      "options": [
+        "需要用户确认或补充信息后才能继续",
+        "网络肯定断开",
+        "当前文件已经验收通过",
+        "任务已被永久删除"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "待确认表达当前需要人处理输入或操作审批，不应直接等同失败。状态不能替代结果核验。",
+      "sources": [
+        "S04"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        5,
+        41
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 63,
+      "module": 2,
+      "type": "单选",
+      "stem": "新建了一个空项目，但侧边栏尚未出现该分组，下一步应先检查什么？",
+      "options": [
+        "把项目重命名为英文",
+        "先购买更大模型",
+        "项目内是否至少已有一个任务",
+        "清除全部历史产物"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "当前任务管理文档说明项目有任务后显示分组，全部任务移除后分组会隐藏。",
+      "sources": [
+        "S04"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        6
+      ],
+      "revisionNote": "",
+      "level": "detail"
+    },
+    {
+      "id": 64,
+      "module": 2,
+      "type": "单选",
+      "stem": "要在其他设备继续查阅已经完成的交付文件，哪种方式最直接？",
+      "options": [
+        "只分享任务名称",
+        "只复制Mac磁盘上的本地路径",
+        "从产物入口上传到自己有权限的云端网盘、腾讯文档或知识库",
+        "把文件后缀删掉"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "跨设备访问需要对方设备可访问的文件位置及权限，本地磁盘路径本身不会上传文件。",
+      "sources": [
+        "S05"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        8
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 65,
+      "module": 3,
+      "type": "单选",
+      "stem": "本机任务调用第三方模型或连接器时，哪项隐私判断合理？",
+      "options": [
+        "分别核对模型、工具和服务的数据传输及授权范围",
+        "工作空间里所有文件都会自动公开",
+        "只要使用Plan就不会有任何网络请求",
+        "程序装在电脑上，因此任何数据都不可能出本机"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "本机执行位置、模型请求传输和对外公开是不同问题；应审查具体功能的数据去向。",
+      "sources": [
+        "S16",
+        "S17"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        9
+      ],
+      "revisionNote": "去掉“所有处理都在本地、原始数据绝不上传”等无条件断言。",
+      "level": "core"
+    },
+    {
+      "id": 66,
+      "module": 3,
+      "type": "单选",
+      "stem": "按当前桌面端助理文档，远程助理与普通任务的哪项区别成立？",
+      "options": [
+        "助理默认固定在专属目录，远程指令集中在一个会话",
+        "普通任务不允许指定工作目录",
+        "助理可创建无限个互不相关的远程会话",
+        "解绑助理后所有普通任务也会删除"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "这是当前助理文档描述的专属目录与单会话机制，不能扩展成所有版本与所有项目的永久限制。",
+      "sources": [
+        "S21"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        10
+      ],
+      "revisionNote": "",
+      "level": "detail"
+    },
+    {
+      "id": 67,
+      "module": 3,
+      "type": "单选",
+      "stem": "只解绑飞书助理，通常会带来什么结果？",
+      "options": [
+        "本机WorkBuddy被卸载",
+        "所有知识库授权同时取消",
+        "该通道不再接收远程指令，其他绑定通道不因此自动失效",
+        "飞书平台上的应用和所有历史任务一并删除"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "解绑取消该平台接入；平台侧应用仍存在，已执行记录保留，其他平台绑定不受影响。",
+      "sources": [
+        "S21"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        12
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 68,
+      "module": 4,
+      "type": "单选",
+      "stem": "关闭一个已安装的技能后，是否需要修改技能包里的SKILL.md来记录这个状态？",
+      "options": [
+        "不需要，启用状态保存在用户配置，技能原文件不因此改写",
+        "需要把SKILL.md转换成PDF",
+        "需要，所有开关都写进技能正文",
+        "必须删除整个包"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "技能配置开关与技能包内容分离。关闭不是编辑技能，也不是卸载。",
+      "sources": [
+        "S07"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        13
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 69,
+      "module": 5,
+      "type": "单选",
+      "stem": "某服务没出现在你当前的连接器列表里，哪项处理更合理？",
+      "options": [
+        "改用灵感后自动获得所有账号权限",
+        "仅凭旧列表断言该服务永久不受支持",
+        "直接复制他人的授权凭据",
+        "检查当前版本与官方说明，必要时通过支持的自定义连接器接入"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "服务目录会变化，存在自定义接入；不能用旧列表的负面选项当作长期不变的事实。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        16
+      ],
+      "revisionNote": "将旧版连接器名单排除题改为当前可验证的服务接入判断。",
+      "level": "core"
+    },
+    {
+      "id": 70,
+      "module": 5,
+      "type": "单选",
+      "stem": "QQ邮箱扫码授权完成后，浏览器请求“打开WorkBuddy”，你应如何完成连接？",
+      "options": [
+        "再次把邮箱密码发到对话里",
+        "只改提示词就能建立授权",
+        "关闭页面就一定完成全部步骤",
+        "按官方流程允许返回客户端，再核对连接器状态"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "授权回跳是完成接入的一环；取消或直接关闭页面可能让流程中断，随后应检查是否已连接。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        19
+      ],
+      "revisionNote": "",
+      "level": "detail"
+    },
+    {
+      "id": 71,
+      "module": 5,
+      "type": "单选",
+      "stem": "当前官方QQ邮箱授权说明中的“读取邮件”，具体范围是？",
+      "options": [
+        "收件箱内近一个月的邮件",
+        "自动读取企业微信全部聊天",
+        "从任何邮箱读取所有历史记录",
+        "仅能读取空白邮件"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "这是当前QQ邮箱连接器文档列出的读取范围；具体权限可能随服务版本调整，不推广到所有邮件连接器。",
+      "sources": [
+        "S09"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        20
+      ],
+      "revisionNote": "",
+      "level": "detail"
+    },
+    {
+      "id": 72,
+      "module": 7,
+      "type": "单选",
+      "stem": "同样处理资料库文档，哪项会触发AI加工类积分消耗？",
+      "options": [
+        "手工修改一处文字",
+        "手工整理目录",
+        "让AI分析资料并生成新报告",
+        "仅存储文件"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "官方资料库将手动存储、组织、检索与编辑和AI分析、生成、修订区分计费。",
+      "sources": [
+        "S10"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        23
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 73,
+      "module": 7,
+      "type": "单选",
+      "stem": "甲写了评论，乙点击“按评论修订”并发送AI指令。按当前文档，谁承担该次AI操作积分？",
+      "options": [
+        "全体成员均分",
+        "乙，因为乙实际发起AI操作",
+        "甲，因为评论是甲写的",
+        "固定由所有者承担"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "评论只是AI参考上下文，积分按实际发起AI指令的人计算；接受或拒绝修订建议本身不耗积分。",
+      "sources": [
+        "S10"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        24
+      ],
+      "revisionNote": "",
+      "level": "detail"
+    },
+    {
+      "id": 74,
+      "module": 8,
+      "type": "单选",
+      "stem": "同一份简报每周一、三、五09:00运行，配置上应优先怎样组织？",
+      "options": [
+        "只能设成每天运行",
+        "拆成三个内容相同的任务才被支持",
+        "仅靠任务标题写三个星期即可",
+        "一条每周多天规则表达同一任务"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "当前文档支持一条规则选择多个星期或日期；任务内容相同时集中配置更便于维护。",
+      "sources": [
+        "S14"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        25
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 75,
+      "module": 8,
+      "type": "单选",
+      "stem": "定时报告已生成，但企业微信推送失败。以下哪项判断合理？",
+      "options": [
+        "删除报告以保持状态一致",
+        "只能从头重建全部工作流",
+        "分别核对任务产物与通知链路；通知失败不必然使任务失败",
+        "推送失败自动证明文件生成也失败"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "任务执行和通知发送是不同阶段。当前文档明确推送失败不影响任务本身执行；应检查绑定、接收对象与通知状态。",
+      "sources": [
+        "S14"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        26
+      ],
+      "revisionNote": "原站有关通知写入助理上下文的表述未在当前文档确认，改为已证实的通知失败边界。",
+      "level": "core"
+    },
+    {
+      "id": 76,
+      "module": 9,
+      "type": "单选",
+      "stem": "选择专家团前，怎样判断积分预算更稳妥？",
+      "options": [
+        "关注多专家和多轮处理带来的更高消耗，以任务实际提示为准",
+        "只要角色够多，任务就免费",
+        "只按输出字数，不看工具和协作",
+        "所有专家团永远固定收费"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "官方提示专家团通常高于单专家，给出的常见参考是3-5倍，仍以实际任务为准，不能视为固定收费表。",
+      "sources": [
+        "S15"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        28
+      ],
+      "revisionNote": "保留成本考点，避免把参考倍数背成所有任务的定值。",
+      "level": "core"
+    },
+    {
+      "id": 77,
+      "module": 9,
+      "type": "单选",
+      "stem": "只为修订一小段文案，有人建议把上下文一律开到1M。较合理的回应是？",
+      "options": [
+        "窗口最大就一定最准确",
+        "窗口与消耗完全无关",
+        "窗口越小就能自动获取更多知识",
+        "先用默认或足够窗口，仅在材料确实超长时扩大"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "上下文容量用于容纳输入，不代表推理更聪明；当前文档建议多数任务用默认200K，过大窗口可能增加消耗。",
+      "sources": [
+        "S16"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        29
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 78,
+      "module": 1,
+      "type": "单选",
+      "stem": "按当前Windows官方安装要求，以下哪台系统符合最低版本条件？",
+      "options": [
+        "只要有浏览器，任何Windows版本都行",
+        "Windows 7",
+        "Windows 10 x64",
+        "Windows 8.1"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "当前文档要求Windows 10及以上，并说明不支持7/8/8.1；还需符合设备架构等要求。",
+      "sources": [
+        "S22"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        36
+      ],
+      "revisionNote": "",
+      "level": "detail"
+    },
+    {
+      "id": 79,
+      "module": 1,
+      "type": "单选",
+      "stem": "为Apple M系列芯片Mac选择原生安装包，应优先选哪类？",
+      "options": [
+        "Windows x64",
+        "Mac Intel专用ARM包",
+        "任意后缀重命名都一样",
+        "Mac ARM64"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "官方按M系列和Intel区分ARM64与X64；应先看芯片与系统版本，再下载官方对应包。",
+      "sources": [
+        "S23"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        37
+      ],
+      "revisionNote": "",
+      "level": "detail"
+    },
+    {
+      "id": 80,
+      "module": 1,
+      "type": "单选",
+      "stem": "收到“codebody”近似拼写域名的安装链接，较可靠的核验方法是？",
+      "options": [
+        "只看网页颜色是否与腾讯相似",
+        "域名像就直接安装",
+        "从已核实的腾讯产品页或WorkBuddy官方文档进入下载页",
+        "下载量大就代表官方"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "应沿官方产品和文档链接核验来源，而不依赖近似拼写。当前存在workbuddy.cn与codebuddy.cn官方产品文档入口。",
+      "sources": [
+        "S22",
+        "S23"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        38
+      ],
+      "revisionNote": "纠正“只有一个域名才是官网”的过时断言，改为官方来源核验。",
+      "level": "core"
+    },
+    {
+      "id": 81,
+      "module": 1,
+      "type": "单选",
+      "stem": "安装后要快速确认“账号、模型请求、产物执行”链路，哪组检查更有用？",
+      "options": [
+        "把所有目录权限一次性全放开",
+        "只看桌面有没有图标",
+        "确认登录态，发简短任务，再打开生成的小文件核验",
+        "强制重启三次"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "验证应覆盖登录、请求、执行与结果，不以桌面图标或无关重启次数替代实际验收。",
+      "sources": [
+        "S02",
+        "S05"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        39
+      ],
+      "revisionNote": "不把讲师的固定“三步”话术作为产品不可变规则。",
+      "level": "core"
+    },
+    {
+      "id": 82,
+      "module": 2,
+      "type": "单选",
+      "stem": "只处理一个客户项目，却准备授权整个用户目录。哪种做法更稳妥？",
+      "options": [
+        "把访问范围写在文件名里即可",
+        "关闭所有备份再批量修改",
+        "单独建工作目录，只放本次需要的材料副本",
+        "永久开放全盘以免将来被打断"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "最小必要范围和副本能降低误操作影响；默认权限不替代备份，也不意味着全盘授权无风险。",
+      "sources": [
+        "S17"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        45
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 83,
+      "module": 2,
+      "type": "单选",
+      "stem": "周报已生成，你想让它增加风险一节；随后又想做完全无关的旅行方案。怎样组织对话更清楚？",
+      "options": [
+        "同一周报在原任务追问，无关目标另开任务并提供必要背景",
+        "全部混在原会话，历史越多越准确",
+        "只看对话轮数，超过固定数字就强制退出",
+        "每次小修改都删除原任务"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "按目标和上下文是否仍相关来决定继续或新建，不把未经验证的固定轮数当硬阈值。",
+      "sources": [
+        "S04",
+        "S19"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        47
+      ],
+      "revisionNote": "",
+      "level": "core"
+    },
+    {
+      "id": 84,
+      "module": 5,
+      "type": "单选",
+      "stem": "“MCP只能远程通信，不能连接本地进程”，这个说法对吗？",
+      "options": [
+        "对，MCP和远程网络是一回事",
+        "对，所有技能必然不访问网络",
+        "不对；MCP可使用stdio连接本地进程，也有HTTP等传输",
+        "不对，因为MCP其实是文件扩展名"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "MCP是协议，不是“只能远程”的限定；具体传输与服务器部署方式须分别判断。",
+      "sources": [
+        "S26"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        49
+      ],
+      "revisionNote": "修正第三方把MCP仅定义为远程通信的表述。",
+      "level": "extension"
+    },
+    {
+      "id": 85,
+      "module": 5,
+      "type": "单选",
+      "stem": "MCP服务端常见的三类核心能力分别是什么？",
+      "options": [
+        "窗口、菜单、按钮",
+        "颜色、字号、动画",
+        "账号、密码、验证码",
+        "工具调用、资源读取、提示模板"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "MCP中的Tools、Resources、Prompts分别对应可调用工具、上下文资源和提示模板；不要求每个服务都实现全部能力。",
+      "sources": [
+        "S25"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        50
+      ],
+      "revisionNote": "",
+      "level": "extension"
+    },
+    {
+      "id": 86,
+      "module": 5,
+      "type": "单选",
+      "stem": "OAuth接入一个服务后，访问令牌与用户密码应如何区分？",
+      "options": [
+        "令牌不可能失效",
+        "拿到令牌就拥有所有用户的权限",
+        "令牌就是密码的公开副本",
+        "令牌表示获授的访问能力，并受其范围与有效性约束"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Access Token是授权凭据，不应当作用户密码；权限范围、过期与撤销都需按服务规则处理。",
+      "sources": [
+        "S27"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        52
+      ],
+      "revisionNote": "",
+      "level": "extension"
+    },
+    {
+      "id": 87,
+      "module": 8,
+      "type": "单选",
+      "stem": "看到“FREQ=WEEKLY;BYDAY=MO;BYHOUR=14;BYMINUTE=0”，应识别为哪类规则？",
+      "options": [
+        "SQL查询语句",
+        "iCalendar RRULE风格的每周重复规则",
+        "邮箱授权令牌",
+        "传统五字段Cron表达式"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "FREQ、BYDAY、BYHOUR、BYMINUTE属于RRULE规则部件；它不是传统Cron写法。具体触发还取决于起始时间和时区等上下文。",
+      "sources": [
+        "S28"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        57
+      ],
+      "revisionNote": "将第三方错误的Cron标签纠正为RRULE；作为补充知识，不宣称官方一定考语法。",
+      "level": "extension"
+    },
+    {
+      "id": 88,
+      "module": 2,
+      "type": "单选",
+      "stem": "一个已完成项目将来可能继续参考，希望先从列表收起，应优先考虑哪种操作？",
+      "options": [
+        "解绑所有连接器",
+        "删除全部产物再保留任务标题",
+        "归档，并保留可恢复的历史",
+        "卸载对应模型"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "归档与删除用途不同：前者服务于整理和后续查阅。无需背“99%”这类经验比例，先看是否仍需保留。",
+      "sources": [
+        "S04"
+      ],
+      "origin": "merged",
+      "thirdPartyIds": [
+        66
+      ],
+      "revisionNote": "去掉没有通用依据的固定百分比。",
+      "level": "core"
+    }
+  ],
+  "sources": {
+    "S01": [
+      "OPC官方考试指南",
+      "https://cloud.tencent.com/document/product/658/134239"
+    ],
+    "S02": [
+      "OPC官方课程地图",
+      "https://cloud.tencent.com/edu/training/workbuddy-opc-cert"
+    ],
+    "S03": [
+      "工作模式与任务配置",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Task-Bar"
+    ],
+    "S04": [
+      "任务管理",
+      "https://www.workbuddy.cn/docs/workbuddy/Task-Management"
+    ],
+    "S05": [
+      "结果查看",
+      "https://www.workbuddy.cn/docs/workbuddy/Results"
+    ],
+    "S06": [
+      "企微助理接入",
+      "https://www.workbuddy.cn/docs/workbuddy/Wecom-Guide"
+    ],
+    "S07": [
+      "技能管理",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market"
+    ],
+    "S08": [
+      "技能包结构",
+      "https://open.workbuddy.cn/docs/skill"
+    ],
+    "S09": [
+      "连接器",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Connector"
+    ],
+    "S10": [
+      "资料库",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library"
+    ],
+    "S11": [
+      "ima授权与取用存",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Knowledge-Base/IMA%20Knowledge%20Base/01-Workbuddy-IMA-Basic-Guide"
+    ],
+    "S12": [
+      "乐享知识库",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Knowledge-Base/Lexiang"
+    ],
+    "S13": [
+      "灵感",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Ispiration"
+    ],
+    "S14": [
+      "定时任务",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Automation-Guide"
+    ],
+    "S15": [
+      "专家与专家团",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Expert-Center"
+    ],
+    "S16": [
+      "模型配置",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Model"
+    ],
+    "S17": [
+      "默认权限与沙箱",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Permission-Modes"
+    ],
+    "S18": [
+      "OPC的一天",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Knowledge-Base/IMA%20Knowledge%20Base/03-OPC-One-Day"
+    ],
+    "S19": [
+      "10个上手技巧",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Efficient-Tips"
+    ],
+    "S20": [
+      "报名和考试指引",
+      "https://cloud.tencent.com/document/product/658/101119"
+    ],
+    "T01": [
+      "文笔塔：66道带解析自测题（第三方）",
+      "https://wenbita.cn/workbuddy-opc-course#s14"
+    ],
+    "S21": [
+      "助理管理",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Assistant"
+    ],
+    "S22": [
+      "Windows安装",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Win-Guide"
+    ],
+    "S23": [
+      "Mac安装",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Installation-Mac-Guide"
+    ],
+    "S24": [
+      "协作与修订",
+      "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Library/Collaboration"
+    ],
+    "S25": [
+      "MCP核心能力",
+      "https://modelcontextprotocol.io/specification/draft/server/index"
+    ],
+    "S26": [
+      "MCP传输（官方SDK）",
+      "https://java.sdk.modelcontextprotocol.io/latest/server/"
+    ],
+    "S27": [
+      "OAuth 2.0",
+      "https://www.rfc-editor.org/rfc/rfc6749.html"
+    ],
+    "S28": [
+      "iCalendar RRULE",
+      "https://www.rfc-editor.org/rfc/rfc5545.html"
+    ]
+  },
+  "modules": [
+    [
+      "产品与基础入门",
+      5,
+      "4-13"
+    ],
+    [
+      "任务与结果管理",
+      5,
+      "17-19、35-43"
+    ],
+    [
+      "助理连接配置",
+      12,
+      "23-31"
+    ],
+    [
+      "技能",
+      14,
+      "161-186"
+    ],
+    [
+      "连接器",
+      10,
+      "仅零散提及，需补官方文档"
+    ],
+    [
+      "灵感",
+      8,
+      "缺少系统讲解"
+    ],
+    [
+      "资料库",
+      10,
+      "缺少系统讲解"
+    ],
+    [
+      "自动化",
+      8,
+      "128-141"
+    ],
+    [
+      "专家与模型配置",
+      12,
+      "7-9、189-197"
+    ],
+    [
+      "典型办公场景",
+      8,
+      "47-124、161-163"
+    ],
+    [
+      "OPC与专家团",
+      8,
+      "195-197，需补官方案例"
+    ]
+  ],
+  "version": "20261027-merged-v3",
+  "audit": [
+    {
+      "sourceNumber": 3,
+      "status": "补充并重写",
+      "questionIds": [
+        61
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 5,
+      "status": "补充并重写",
+      "questionIds": [
+        62
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 6,
+      "status": "补充并重写",
+      "questionIds": [
+        63
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 8,
+      "status": "补充并重写",
+      "questionIds": [
+        64
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 9,
+      "status": "修订后补充",
+      "questionIds": [
+        65
+      ],
+      "note": "去掉“所有处理都在本地、原始数据绝不上传”等无条件断言。"
+    },
+    {
+      "sourceNumber": 10,
+      "status": "补充并重写",
+      "questionIds": [
+        66
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 12,
+      "status": "补充并重写",
+      "questionIds": [
+        67
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 13,
+      "status": "补充并重写",
+      "questionIds": [
+        68
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 16,
+      "status": "修订后补充",
+      "questionIds": [
+        69
+      ],
+      "note": "将旧版连接器名单排除题改为当前可验证的服务接入判断。"
+    },
+    {
+      "sourceNumber": 19,
+      "status": "补充并重写",
+      "questionIds": [
+        70
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 20,
+      "status": "补充并重写",
+      "questionIds": [
+        71
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 23,
+      "status": "补充并重写",
+      "questionIds": [
+        72
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 24,
+      "status": "补充并重写",
+      "questionIds": [
+        73
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 25,
+      "status": "补充并重写",
+      "questionIds": [
+        74
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 26,
+      "status": "修订后补充",
+      "questionIds": [
+        75
+      ],
+      "note": "原站有关通知写入助理上下文的表述未在当前文档确认，改为已证实的通知失败边界。"
+    },
+    {
+      "sourceNumber": 28,
+      "status": "修订后补充",
+      "questionIds": [
+        76
+      ],
+      "note": "保留成本考点，避免把参考倍数背成所有任务的定值。"
+    },
+    {
+      "sourceNumber": 29,
+      "status": "补充并重写",
+      "questionIds": [
+        77
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 36,
+      "status": "补充并重写",
+      "questionIds": [
+        78
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 37,
+      "status": "补充并重写",
+      "questionIds": [
+        79
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 38,
+      "status": "修订后补充",
+      "questionIds": [
+        80
+      ],
+      "note": "纠正“只有一个域名才是官网”的过时断言，改为官方来源核验。"
+    },
+    {
+      "sourceNumber": 39,
+      "status": "修订后补充",
+      "questionIds": [
+        81
+      ],
+      "note": "不把讲师的固定“三步”话术作为产品不可变规则。"
+    },
+    {
+      "sourceNumber": 45,
+      "status": "补充并重写",
+      "questionIds": [
+        82
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 47,
+      "status": "补充并重写",
+      "questionIds": [
+        83
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 49,
+      "status": "修订后补充",
+      "questionIds": [
+        84
+      ],
+      "note": "修正第三方把MCP仅定义为远程通信的表述。"
+    },
+    {
+      "sourceNumber": 50,
+      "status": "补充并重写",
+      "questionIds": [
+        85
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 52,
+      "status": "补充并重写",
+      "questionIds": [
+        86
+      ],
+      "note": "考点由官方来源复核，独立编写题目与解析。"
+    },
+    {
+      "sourceNumber": 57,
+      "status": "修订后补充",
+      "questionIds": [
+        87
+      ],
+      "note": "将第三方错误的Cron标签纠正为RRULE；作为补充知识，不宣称官方一定考语法。"
+    },
+    {
+      "sourceNumber": 66,
+      "status": "修订后补充",
+      "questionIds": [
+        88
+      ],
+      "note": "去掉没有通用依据的固定百分比。"
+    },
+    {
+      "sourceNumber": 1,
+      "status": "合并已有考点",
+      "questionIds": [
+        1,
+        41
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 2,
+      "status": "合并已有考点",
+      "questionIds": [
+        1
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 4,
+      "status": "合并已有考点",
+      "questionIds": [
+        3
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 11,
+      "status": "合并已有考点",
+      "questionIds": [
+        43,
+        44
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 14,
+      "status": "合并已有考点",
+      "questionIds": [
+        13,
+        46
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 17,
+      "status": "合并已有考点",
+      "questionIds": [
+        18
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 21,
+      "status": "合并已有考点",
+      "questionIds": [
+        19,
+        20,
+        21
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 22,
+      "status": "合并已有考点",
+      "questionIds": [
+        25
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 27,
+      "status": "合并已有考点",
+      "questionIds": [
+        30,
+        56
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 31,
+      "status": "合并已有考点",
+      "questionIds": [
+        33
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 32,
+      "status": "合并已有考点",
+      "questionIds": [
+        37
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 33,
+      "status": "合并已有考点",
+      "questionIds": [
+        38,
+        39
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 34,
+      "status": "合并已有考点",
+      "questionIds": [
+        40,
+        60
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 35,
+      "status": "合并已有考点",
+      "questionIds": [
+        59
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 41,
+      "status": "合并已有考点",
+      "questionIds": [
+        62
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 42,
+      "status": "合并已有考点",
+      "questionIds": [
+        2
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 43,
+      "status": "合并已有考点",
+      "questionIds": [
+        2
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 44,
+      "status": "合并已有考点",
+      "questionIds": [
+        3
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 53,
+      "status": "合并已有考点",
+      "questionIds": [
+        20
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 56,
+      "status": "合并已有考点",
+      "questionIds": [
+        23,
+        52
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 58,
+      "status": "合并已有考点",
+      "questionIds": [
+        28,
+        6
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 59,
+      "status": "合并已有考点",
+      "questionIds": [
+        30,
+        56
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 60,
+      "status": "合并已有考点",
+      "questionIds": [
+        32,
+        57
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 62,
+      "status": "合并已有考点",
+      "questionIds": [
+        40,
+        60
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 65,
+      "status": "合并已有考点",
+      "questionIds": [
+        12,
+        45
+      ],
+      "note": "保留现有独立题目，来源仅作考点对照，不复制原题表达。"
+    },
+    {
+      "sourceNumber": 7,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "命名字符数属于细节，尚未在当前来源复核，不设确定答案。"
+    },
+    {
+      "sourceNumber": 15,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "插件类型枚举不作为本套OPC核心确定考点。"
+    },
+    {
+      "sourceNumber": 18,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "连接器计费的绝对描述未在当前连接器页确认，暂不收录。"
+    },
+    {
+      "sourceNumber": 30,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "配置路径容易随产品与版本变化，本次未核实，暂不收录。"
+    },
+    {
+      "sourceNumber": 40,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "界面按钮固定数量随版本变化，不作固定数字考题。"
+    },
+    {
+      "sourceNumber": 46,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "没有可靠依据支持固定轮数必然导致注意力稀释。"
+    },
+    {
+      "sourceNumber": 48,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "不能将所有技能的底层机制简化成单一调用方式。"
+    },
+    {
+      "sourceNumber": 51,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "不重复死记授权条目数量，具体以本次服务授权页为准。"
+    },
+    {
+      "sourceNumber": 54,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "提示词处理分层属于讲解模型，本次未确认官方固定层次口径。"
+    },
+    {
+      "sourceNumber": 55,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "资料来源分类在现有资料库闭环已覆盖，不把旧分类当排他名单。"
+    },
+    {
+      "sourceNumber": 61,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "OPC行业规模和占比缺乏可核验原始统计，不纳入确定答案。"
+    },
+    {
+      "sourceNumber": 63,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "讲师分层模型未确认官方依据，不纳入必考规则。"
+    },
+    {
+      "sourceNumber": 64,
+      "status": "暂不纳入",
+      "questionIds": [],
+      "note": "投入产出数字缺乏可复核计算前提，不纳入确定答案。"
+    }
+  ],
+  "stats": {
+    "original": 60,
+    "added": 28,
+    "total": 88,
+    "sourceReviewed": 66,
+    "sourceMerged": 25,
+    "sourceExcluded": 13,
+    "sourceAdded": 28,
+    "statusCounts": {
+      "补充并重写": 19,
+      "修订后补充": 9,
+      "合并已有考点": 25,
+      "暂不纳入": 13
+    }
+  }
+}
